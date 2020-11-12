@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@300&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Quicksand:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="img/fav.png" sizes="32x32">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!--************************************************************************************************-->
+        <!--************************************************************************************************-->
+        <header class="row align-items-center mx-1 bg-light">
+            <div class="col-xl-4">
+                <span class="titlogo">
+                    <i class="fas fa-mug-hot"></i>
+                    <a href="portada.html" class="text-decoration-none"><span class="titulo">CoffeTalk</span></a>
+                </span>
+            </div>
+            <div class="col-xl-8 opcionesmenu">
+                <div class="row">
+                    <div class="col-xl-4"></div>
+                    <div class="col-xl-2 bordeS">
+                        <a href="menu.html" class="menu text-decoration-none">
+                            <span class="letralogotipo">Menu</span>
+                        </a>
+                    </div>
+                    <div class="col-xl-2 bordeS">
+                        <a href="shop.html" class="menu text-decoration-none">
+                            <span class="letralogotipo">Shop</span>
+                        </a>
+                    </div>
+                    <div class="col-xl-2 bordeS">
+                        <a href="gallery.html" class="menu text-decoration-none">
+                            <span class="letralogotipo">Gallery</span>
+                        </a>
+                    </div>
+                    <div class="col-xl-2 bordeS">
+                        <a href="signin.html" class="menu text-decoration-none">
+                            <span class="letralogotipo">Sign in</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--************************************************************************************************-->
+        <!--************************************************************************************************-->
+        <main class="row m6 mx-1">
+            <div class="col-md-2 col-xl-3"></div>
+            <div class="col-md-8 col-xl-6">
+                <form name="formulario" action="portada.html" method="POST">
+                    <div class="row">
+                        <div class="col-xl-2"></div>
+                        <div class="col-xl-8 recuadre" style="padding-left: 100px; padding-right: 100px; padding-top: 40px; padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <span class="login">Login</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-12 borde">
+                                    <i class="fas fa-user iconologin"></i>
+                                    <input type="text" name="username" class="letrainput " placeholder="Username" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-12 borde">
+                                    <i class="fas fa-lock iconologin"></i>
+                                    <input type="password" name="contraseña" class="letrainput "
+                                        placeholder="Password" />
+                                </div>
+                            </div>
+                            <div class="row m1">
+                                <div class="col-xl-12">
+                                    <input type="submit" name="Entrar" value="Entrar" class="boton letrainput" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2"></div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-md-2 col-xl-3"></div>
+        </main>
+        <!--************************************************************************************************-->
+        <!--************************************************************************************************-->
+        <footer class="row mx-1">
+            <div class="col-xl-12 bg-light" name="portada">
+                <div class="m1 centrado">
+                    <i class="fab fa-twitter footer"></i>
+                    <i class="fab fa-instagram footer"></i>
+                    <i class="fab fa-facebook-f footer"></i>
+                </div>
+                <span class="letralogotipo centrado m2">Contact with us !</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

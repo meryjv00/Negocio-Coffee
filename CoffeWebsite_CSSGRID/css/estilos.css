@@ -1,0 +1,360 @@
+/*----------------------------------------------------------------------------------------*/
+/*-------------------------------------CSS GRID-------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*________________________________________________________________________________________*/
+/*-------------------------------------MEDIA QUERYS---------------------------------------*/
+/*________________________________________________________________________________________*/
+/*-----------------------------------------------------------------------------------------*/
+/*--------------------------------------- S - M -------------------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+@media only screen and (min-width:0) and (max-width: 1200px){
+    /*_____________________________________*/
+    /*______________GENERAL________________*/
+    .bordeS{
+        border: 1px solid #4B1248;
+        border-radius: 20px;
+    }
+    .plS{
+        padding-left: 30px;
+    }
+    .m6{
+        margin-top: 240px;
+    }
+    .opcionesmenu{
+        margin-top: 40px;
+    }
+    form{
+        margin-bottom: 30px;
+    }
+    /*_____________________________________*/
+    /*________________GRID_________________*/
+    .menuobj{
+        display: grid;
+        grid-template-columns: 5% auto 5%;
+        padding-top: 1.20em;
+        padding-bottom: 1.20em;
+    }
+    .imag, .desc{
+        display: grid;
+        grid-template-columns: 10% auto 10%;
+    }
+    .tiendaobj{
+        display: grid;
+        grid-template-columns: 10% auto 10%;
+        padding-top: 1.20em;
+        padding-bottom: 1.20em;
+    }
+    .filagal{
+        padding: 1.50em;
+    }
+}
+/*-----------------------------------------------------------------------------------------*/
+/*---------------------------------------S-------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+@media (min-width: 700px) and (max-width:1200px) {
+    /*_____________________________________*/
+    /*________________GRID_________________*/
+    .aside{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .menufil{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .tiendafil{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .filagal{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 1.50em;
+    }
+    main[id="signin"]{
+        display: grid;
+        grid-template-columns: auto 60% auto;
+    }
+}
+/*-----------------------------------------------------------------------------------------*/
+/*----------------------------------------M------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+@media (min-width: 1200px) {
+    /*_____________________________________*/
+    /*______________GENERAL________________*/
+    form{   
+        margin-top: 16vh;
+        margin-bottom: 16vh;
+    }
+    .m1{
+        margin-top: 1.10em;
+    }
+    /*_____________________________________*/
+    /*________________GRID_________________*/
+    header{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .opcionesmenu{
+        display: grid;
+        grid-template-columns: 28% repeat(4,18%);
+    }
+
+    main[id="portada"], footer{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    main[id="galeria"]{
+        display: grid;
+        grid-template-columns: 2.5% 95% 2.5%;
+    }
+    .filagal{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 1.50em;
+    }
+    main[id="menu"]{
+        display: grid;
+        grid-template-columns: 15% 85%;
+    }
+    .menufil{
+        display: grid;
+        grid-template-columns: repeat(3,33%);
+    }
+    .menuobj{
+        display: grid;
+        grid-template-columns: 5% auto 5%;
+        padding-top: 1.20em;
+        padding-bottom: 1.20em;
+    }
+    .imag, .desc,.tiendaobj{
+        display: grid;
+        grid-template-columns: 10% auto 10%;
+    }
+    .tiendafil{
+        display: grid;
+        grid-template-columns: repeat(4,25%);
+    }
+    main[id="signin"]{
+        display: grid;
+        grid-template-columns: auto 30% auto;
+    }
+}
+@media (min-width: 1400px) {
+}
+
+/*________________________________________________________________________________________*/
+/*------------------------------------------GENERAL---------------------------------------*/
+/*________________________________________________________________________________________*/
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+html{
+    min-height: 100%;
+}
+body{
+    height: 100%;
+    background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4B1248, #F0C27B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header{
+    background-color: white;
+    position: sticky;
+    height: 105px;
+}
+.letralogotipo{
+    color:#CF9E71;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.titlogo{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
+a.menu:hover{
+    font-size: 30px;
+}
+i{
+    color:#622A4F;
+}
+i.footer{
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.titulo{
+    font-family: 'Lobster', cursive;
+    color:#622A4F;
+}
+footer.portada, main[id="portada"]{
+    background-color: white;
+}
+.imgport{
+    width: 100%;
+}
+.tam{
+    height: 72vh;
+    padding: 0;
+    overflow: hidden;
+}
+.centrado{
+    display: block;
+    text-align: left;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.headeritem{
+    display: block;
+    margin-top: 30px;
+}
+.footeracc{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+.pb{
+    padding-bottom: 20px;
+}
+/*_____________________________________________________________________________________*/
+/*------------------------------------SING IN------------------------------------------*/
+/*_____________________________________________________________________________________*/
+
+span.login{
+    color: #4B1248;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+input{
+    width: 80%;
+    background: none;
+    border: none;
+}
+.letrainput{
+    font-size: 20px;
+    font-weight: bold;
+}
+.borde{
+    border-bottom: 3px solid #4B1248;
+}
+.iconologin{
+    color: #4B1248;
+    width: 30px;
+}
+.recuadre{
+    background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    border: 3px solid #4B1248;
+    border-radius: 20px;
+}
+.m1{
+    margin-top: 1.10em;
+}
+.m3{
+    margin-top: 2em;
+    padding-bottom: 10px;
+}
+.boton {
+   background-image: linear-gradient(to right, #CF9E71 0%, #61045F  51%, #CF9E71  100%);
+   width: 100%;
+   border: 3px solid #4B1248;
+   padding: 10px 45px;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+}
+.boton:hover {
+   background-position: right center; 
+}
+/*_____________________________________________________________________________________*/
+/*--------------------------------------MENU-------------------------------------------*/
+/*_____________________________________________________________________________________*/
+div.buscador{
+    background-color: white;
+    border: 3px solid #4B1248;
+    border-radius: 20px;
+    height: 45px;
+}
+input.buscador{
+    width: 95%;
+    margin-top: 10px;
+}
+i.buscador{
+    padding-left: 20px;
+}
+.aside{
+    background-color: #CF9E71;
+    border: 3px solid #4B1248;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.cuadro{
+    border: 1px solid #4B1248;
+    border-radius: 20px;
+}
+span.titmenu{
+    display: block;
+    text-align: center;
+}
+.imgmenu{
+    width: 100%;
+    height: 300px;
+    border: 3px solid #4B1248;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+span.obj{
+    color: #4B1248;
+    font-size: 23px;
+    font-weight: bold;
+}
+span.descripcion{
+    font-weight: bold;
+    color: #4B1248;
+    padding-bottom: 20px;
+}
+.aside > *{
+    font-size: 20px;
+    font-weight: bold;
+    color: #4B1248;
+}
+.m2{
+    margin-top: 0.50em;
+}
+.m4{
+    margin-bottom: 30px;
+}
+/*_____________________________________________________________________________________*/
+/*------------------------------------GALERIA------------------------------------------*/
+/*_____________________________________________________________________________________*/
+
+div.galeria{
+    border: 3px solid #4B1248;
+    border-radius: 20px;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+.foto{
+    width: 100%;
+    height: 480px;
+}
+.imggal{
+    margin: 10px;
+}
+/*_____________________________________________________________________________________*/
+/*-------------------------------------TIENDA------------------------------------------*/
+/*_____________________________________________________________________________________*/
+
+.cuadro2{
+    border: 1px solid #4B1248;
+    border-radius: 20px;
+}
+.w100{
+    width: 100%;
+}

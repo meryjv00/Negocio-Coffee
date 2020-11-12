@@ -1,0 +1,285 @@
+
+.row::after 
+{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] 
+{
+    width: 100%;
+}
+/*________________________________________________________________________________________*/
+/*-------------------------------------MEDIA QUERYS---------------------------------------*/
+/*________________________________________________________________________________________*/
+/*-----------------------------------------------------------------------------------------*/
+/*--------------------------------------- S - M -------------------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+@media only screen and (min-width:0) and (max-width: 1200px){
+    .bordeS{
+        border: 1px solid #4B1248;
+        border-radius: 20px;
+    }
+}
+/*-----------------------------------------------------------------------------------------*/
+/*--------------------------------------- S -------------------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 700px) 
+{
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+/*-----------------------------------------------------------------------------------------*/
+/*---------------------------------------  M  ---------------------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 1200px) 
+{
+    form{   
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+    }
+    .aside{
+        height: 150vh;
+    }
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+/*-----------------------------------------------------------------------------------------*/
+/*--------------------------------------- L -----------------------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 1400px) 
+{
+    .col-l-1 {width: 8.33%;}
+    .col-l-2 {width: 16.66%;}
+    .col-l-3 {width: 25%;}
+    .col-l-4 {width: 33.33%;}
+    .col-l-5 {width: 41.66%;}
+    .col-l-6 {width: 50%;}
+    .col-l-7 {width: 58.33%;}
+    .col-l-8 {width: 66.66%;}
+    .col-l-9 {width: 75%;}
+    .col-l-10 {width: 83.33%;}
+    .col-l-11 {width: 91.66%;}
+    .col-l-12 {width: 100%;}
+}
+
+[class*="col-"] {
+    float: left;
+    box-sizing: border-box; 
+    padding: 1em;
+}
+
+/*________________________________________________________________________________________*/
+/*------------------------------------------GENERAL---------------------------------------*/
+/*________________________________________________________________________________________*/
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+html{
+    min-height: 100%;
+}
+body{
+    height: 100%;
+    background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4B1248, #F0C27B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header{
+    background-color: white;
+    position: sticky;
+    height: 105px;
+}
+.letralogotipo{
+    color:#CF9E71;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.titlogo{
+    padding-left: 100px;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
+a.menu:hover{
+    font-size: 30px;
+}
+i{
+    color:#622A4F;
+}
+i.footer{
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.titulo{
+    padding-left: 40px;
+    font-family: 'Lobster', cursive;
+    color:#622A4F;
+}
+div[name="portada"]{
+    background-color: white;
+}
+.imgport{
+    width: 100%;
+    /*
+    position: relative;
+    top: -20vh;
+    */
+}
+
+.tam{
+    padding: 0;
+    /*
+    height: 72vh;
+    padding: 0;
+    overflow: hidden;
+    */
+}
+
+.centrado{
+    display: block;
+    text-align: center;
+}
+/*_____________________________________________________________________________________*/
+/*------------------------------------SING IN------------------------------------------*/
+/*_____________________________________________________________________________________*/
+
+span.login{
+    color: #4B1248;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+input{
+    width: 80%;
+    background: none;
+    border: none;
+}
+.letrainput{
+    font-size: 20px;
+    font-weight: bold;
+}
+.borde{
+    border-bottom: 3px solid #4B1248;
+}
+.iconologin{
+    color: #4B1248;
+    width: 30px;
+}
+.recuadre{
+    background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    border: 3px solid #4B1248;
+    border-radius: 20px;
+}
+.m1{
+    margin-top: 1.10em;
+}
+.m5{
+    margin-bottom: 60px;
+}
+.boton {
+   background-image: linear-gradient(to right, #CF9E71 0%, #61045F  51%, #CF9E71  100%);
+   width: 100%;
+   border: 3px solid #4B1248;
+   padding: 10px 45px;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+}
+.boton:hover {
+   background-position: right center; 
+}
+/*_____________________________________________________________________________________*/
+/*--------------------------------------MENU-------------------------------------------*/
+/*_____________________________________________________________________________________*/
+div.buscador{
+    background-color: white;
+    border: 3px solid #4B1248;
+    border-radius: 20px;
+}
+input.buscador{
+    width: 95%;
+}
+.aside{
+    background-color: #CF9E71;
+    border-radius: 20px;
+    border: 3px solid #4B1248;
+}
+.cuadro{
+    border: 1px solid #4B1248;
+    border-radius: 20px;
+    height: 520px; /*!!*/
+}
+span.titmenu{
+    display: block;
+    text-align: center;
+}
+.imgmenu{
+    width: 100%;
+    height: 300px;
+    border: 3px solid #4B1248;
+    border-radius: 20px;
+}
+span.obj{
+    color: #4B1248;
+    font-size: 23px;
+    font-weight: bold;
+}
+span.descripcion{
+    font-weight: bold;
+    color: #4B1248;
+}
+.aside > *{
+    font-size: 20px;
+    font-weight: bold;
+    color: #4B1248;
+}
+.m2{
+    margin-top: 0.50em;
+}
+/*_____________________________________________________________________________________*/
+/*------------------------------------GALERIA------------------------------------------*/
+/*_____________________________________________________________________________________*/
+div.galeria{
+    border: 3px solid #4B1248;
+    border-radius: 20px;
+}
+.foto{
+    width: 100%;
+    height: 480px;
+}
+/*_____________________________________________________________________________________*/
+/*-------------------------------------TIENDA------------------------------------------*/
+/*_____________________________________________________________________________________*/
+.cuadro2{
+    border: 1px solid #4B1248;
+    border-radius: 20px;
+}
+.w100{
+    width: 100%;
+}
