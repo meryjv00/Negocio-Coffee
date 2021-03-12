@@ -1,5 +1,5 @@
 # Coffee website :coffee::doughnut:
-Página web responsive de una tienda de cafés
+Página web responsive de una cafetería
 
 ```
 https://coffee-shop-websitee.netlify.app
