@@ -10,3 +10,6 @@ https://coffee-shop-websitee.netlify.app
 + Flex
 + CSS GRID
 + Bootstrap
+
+---
+⌨️ con ❤️ por [Mery](https://github.com/meryjv00) 🥰
